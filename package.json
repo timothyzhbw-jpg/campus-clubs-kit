@@ -1,0 +1,27 @@
+{
+  "name": "campus-clubs-kit",
+  "version": "0.1.0",
+  "description": "A small, generic React/Next.js kit for browsing campus clubs: search, category filter, club cards and profile pages.",
+  "license": "MIT",
+  "author": "Bowen Zhang",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "node --test lib/"
+  },
+  "dependencies": {
+    "next": "16.4.6",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "typescript": "^5"
+  },
+  "engines": { "node": ">=20.9" }
+}
